@@ -11,10 +11,11 @@
     letter-spacing: 0.3rem;
 }
 .menu-title{
-    font-size: 12px;
-    margin-top: 0;
+    font-size: 15px;
+    margin-top: 10px;
     display: block;
     letter-spacing: 1rem;
+    text-align: center;
 }
 .side-bar{
     background-color: #082740 !important;

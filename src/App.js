@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import MenuBar from './Component/Shared/MenuBar/MenuBar';
 import Home from './Component/Home/Home/Home';
+import Footer from './Component/Shared/Footer/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Home />
           </Route>
       </Switch>
+      <Footer />
     </Router>
     </div>
   );
