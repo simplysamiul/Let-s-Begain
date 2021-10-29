@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+.menu-background{
+    box-shadow: 5px 5px 10px gray;
+    background-color: white;
+}
+.menu-text{
+    font-family: 'Zen Antique', serif;
+    text-transform: uppercase;
+    font-size: 30px !important;
+    font-weight: 800;
+    letter-spacing: 0.3rem;
+}
+.menu-title{
+    font-size: 12px;
+    margin-top: 0;
+    display: block;
+    letter-spacing: 1rem;
+}
+.side-bar{
+    background-color: #082740 !important;
+}
+.menu-items a{
+    color: lightgray;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    border-bottom: 1px solid orange;
+    padding-bottom: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.menu-items a:hover{
+    color: white;
+}
