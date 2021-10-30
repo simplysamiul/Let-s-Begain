@@ -37,10 +37,25 @@
     color: orange;
     padding-right: 10px;
 }
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons i{
+    font-size: 25px;
+    margin-left: 10px;
+}
 marquee{
     font-family: 'Zen Antique', serif;
     border-top: 1px solid orange;
     padding: 15px 0;
     color: lightgray;
     letter-spacing: 0.5rem;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .footer-body{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
 }

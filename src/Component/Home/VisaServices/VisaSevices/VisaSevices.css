@@ -1,0 +1,17 @@
+.visa-area h1{
+    text-align: center;
+    font-family: 'Zen Antique', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #082740;
+}
+.visa-area span{
+    color: #ff9100;
+}
+.countries-container {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}

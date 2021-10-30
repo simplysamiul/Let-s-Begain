@@ -1,0 +1,19 @@
+.funding-container{
+    margin: 50px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.funding-container h1, h2{
+    font-family: 'Zen Antique', serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.funding-container h1{
+    color: #ff9100;
+    margin-bottom: 10px;
+}
+.funding-container h2{
+    color: #082740;
+    margin-bottom: 50px;
+}

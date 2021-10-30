@@ -1,0 +1,23 @@
+.country-container{
+    border: 1px solid lightgray;
+    overflow: hidden;
+}
+.country-container img {
+    width: 100%;
+    height: 150px;
+    transition: transform .5s;
+}
+.country-container img:hover{
+    transform: scale(1.2);
+}
+.country-name{
+    background-color: #082740;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.country-name h4{
+    color: white;
+    font-family: 'Zen Antique', serif;
+    margin: 0;
+}
