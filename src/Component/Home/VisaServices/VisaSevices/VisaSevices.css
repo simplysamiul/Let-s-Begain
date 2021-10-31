@@ -15,3 +15,19 @@
     grid-row-gap: 20px;
     grid-column-gap: 20px;
 }
+
+@media only screen and (max-width: 500px) {
+    .countries-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media only screen and (max-width: 765px) and (min-width: 501px){
+    .countries-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width: 950px) and (min-width: 766px){
+    .countries-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}

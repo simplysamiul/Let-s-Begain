@@ -1,0 +1,29 @@
+.packages-area{
+    margin: 50px;
+}
+.packages-area h1{
+    text-align: center;
+    font-family: 'Zen Antique', serif;
+    font-weight: 700;
+    color: #082740;
+    text-transform: uppercase;
+}
+.packages-area span{
+    color: #ff9100;
+}
+.packages-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+@media only screen and (max-width: 600px){
+    .packages-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media only screen and (max-width: 950px) and (min-width: 650px){
+    .packages-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}

@@ -8,6 +8,7 @@ import {
 import MenuBar from './Component/Shared/MenuBar/MenuBar';
 import Home from './Component/Home/Home/Home';
 import Footer from './Component/Shared/Footer/Footer';
+import PackageDetails from './Component/Home/PackageDetails/PackageDetails';
 
 function App() {
   return (
@@ -17,6 +18,12 @@ function App() {
       <Switch>
           <Route exact path='/'>
             <Home />
+          </Route>
+          <Route path='/home'>
+            <Home />
+          </Route>
+          <Route path="/packages/:id">
+            <PackageDetails />
           </Route>
       </Switch>
       <Footer />

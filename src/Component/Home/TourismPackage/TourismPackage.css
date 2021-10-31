@@ -1,0 +1,30 @@
+.package-container{
+    border: 2px solid lightgray;
+    border-radius: 10px;
+}
+.package-container img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 250px;
+}
+.cart-body{
+    padding: 15px;
+    font-family: 'Zen Antique', serif;
+}
+.cart-body h3{
+    font-size: 22px;
+}
+.cart-body p{
+    color: gray;
+}
+.cart-body h4{
+    color: #f21c1c;
+    font-size: 18px;
+    font-weight: 500;
+}
+@media only screen and (max-width: 600px){
+    .package-container img{
+        height: 300px;
+    }
+}
