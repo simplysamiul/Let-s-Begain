@@ -1,12 +1,28 @@
 .package-container{
     border: 2px solid lightgray;
     border-radius: 10px;
+    text-align: center;
 }
 .package-container img{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 100%;
     height: 250px;
+}
+.cart-body a{
+    text-decoration: none;
+    background-color: #082740;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.cart-body a:hover{
+    box-shadow: 5px 5px 10px lightgray;
+    color: white;
 }
 .cart-body{
     padding: 15px;
@@ -22,6 +38,7 @@
     color: #f21c1c;
     font-size: 18px;
     font-weight: 500;
+    margin-bottom: 40px;
 }
 @media only screen and (max-width: 600px){
     .package-container img{

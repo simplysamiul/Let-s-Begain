@@ -12,8 +12,8 @@ const TourismPackage = (props) => {
                 <h3>{name}</h3>
                 <p>{short_desk}</p>
                 <h4>Starts From BDT-{price}/Per Person</h4>
+                <Link className="mx-auto" to={`/packages/${_id}`}>Booking</Link>
            </div>
-           <Link to={`/packages/${_id}`}>Booking</Link>
         </div>
     );
 };

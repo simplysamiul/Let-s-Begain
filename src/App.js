@@ -9,10 +9,14 @@ import MenuBar from './Component/Shared/MenuBar/MenuBar';
 import Home from './Component/Home/Home/Home';
 import Footer from './Component/Shared/Footer/Footer';
 import PackageDetails from './Component/Home/PackageDetails/PackageDetails';
+import LogIn from './Component/registare/LogIn/LogIn';
+import AuthProvider from './Component/context/AuthProvider';
+import PrivateRoute from './Component/PrivateRoute/PrivateRoute';
+import MyBooking from './Component/MyBooking/MyBooking';
 
 function App() {
   return (
-    <div className="App">
+    <AuthProvider>
     <Router>
       <MenuBar />
       <Switch>
@@ -22,13 +26,19 @@ function App() {
           <Route path='/home'>
             <Home />
           </Route>
-          <Route path="/packages/:id">
+          <PrivateRoute exact path="/packages/:id">
             <PackageDetails />
+          </PrivateRoute>
+          <Route path="/login">
+            <LogIn />
           </Route>
+          <PrivateRoute path='/mybooking/:name'>
+            <MyBooking />
+          </PrivateRoute>
       </Switch>
       <Footer />
     </Router>
-    </div>
+    </AuthProvider>
   );
 }
 
